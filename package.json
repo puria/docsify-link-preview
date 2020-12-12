@@ -1,6 +1,6 @@
 {
   "name": "docsify-link-preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Link preview for docsify",
   "files": [
     "src"

@@ -12,7 +12,7 @@ const getOpenGraph = async (url) => {
        `
     );
   const key = window.$docsify.linkpreview.key;
-  const linkpreview = `http://api.linkpreview.net/?key=${key}&q=${url}`;
+  const linkpreview = `https://api.linkpreview.net/?key=${key}&q=${url}`;
   const response = await fetch(linkpreview);
   return await response.json();
 };
